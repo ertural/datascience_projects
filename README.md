@@ -1,4 +1,4 @@
-# datascience_projects
+# Text Analysis and Review Classification of Reviews in Yelp Dataset
 Text Analysis is one of the important applications in the field of machine learning. Since the raw text or a sequence of symbols cannot be fed directly to the algorithms themselves as most of them expect numerical feature vectors with proper dimensions rather than the raw text documents which is an example of unstructured data. For Classification we will be using Machine Learning Algorithms such as Logistic Regression and Multinomial Naive Bayes. We will also be using some NLP techniques such as count Vectorizer and Term Frequency-Inverse document Matrix (TF-IDF). 
 
 1. Data Preparation, In this section you will prepare our data from simple text and ratings to a matrix that is acceptable by Machine Learning Algorithms.
