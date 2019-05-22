@@ -11,29 +11,27 @@ Questions to be answered
 7. Most popular five cuisines in top 5 cities
 8. Map of the Restaurants in Toronto
 9. Most Appreciated Restaurants in Toronto
-10.0. “Pai Northern Thai Kitchen”
+10. “Pai Northern Thai Kitchen”
     + Wordcloud of the reviews of “Pai Northern Thai Kitchen”
     + Sentiment Analysis - Postive and Not So Postive Words of “Pai Northern Thai Kitchen”
     + Calculate Sentiment for the reviews
     + Top 5 Negative Reviews
     + Top 5 Positive Reviews
-10.6. Most Common Bigrams of “Pai Northern Thai Kitchen”
-10.7. Relationship among words
-Highly criticized restaurants in Toronto
-11.0. “Toula Restaurant & Bar”
-11.1. Word Cloud of the reviews of “Toula Restaurant & Bar”
-11.2. Sentiment Analysis - Postive and Not So Postive Words of “Toula Restaurant & Bar”
-11.3. Calculate Sentiment for the reviews
-11.4. Top 5 Negative Reviews of “Toula Restaurant & Bar”
-11.5. Top 5 Positive Reviews “Toula Restaurant & Bar”
-11.6. Most Common Bigrams of “Toula Restaurant & Bar”
-11.7. Relationship among words in “Toula Restaurant & Bar”
-Proportion of closed restaurants types in Toronto
-12.1. The most negative comments among the closed restaurants
-12.2. Locations of the Open/Closed Restaurants in Toronto Map
-12.3. An interactive map of restaurants in Toronto with their average ratings
-12.4. The reviews given by customer for closed restaurants in Toronto related to food, service, ambience and staff
-12.5. Word Cloud of the reviews of Watermark Irish Pub
-12.6. Sentiment Analysis - Postive and Not So Postive Words of “Watermark Irish Pub”
-12.7. Calculate Sentiment for the reviews of “Watermark Irish Pub”
-12.8. Top 5 Negative Reviews of “Watermark Irish Pub”
+    + Most Common Bigrams of “Pai Northern Thai Kitchen”
+    + Relationship among words
+11. “Toula Restaurant & Bar”
+    + Word Cloud of the reviews of “Toula Restaurant & Bar”
+    + Sentiment Analysis - Postive and Not So Postive Words of “Toula Restaurant & Bar”
+    + Calculate Sentiment for the reviews
+    + Top 5 Negative Reviews of “Toula Restaurant & Bar”
+    + Top 5 Positive Reviews “Toula Restaurant & Bar”
+    + Most Common Bigrams of “Toula Restaurant & Bar”
+    + Relationship among words in “Toula Restaurant & Bar”
+12. Proportion of closed restaurants types in Toronto
+    + The most negative comments among the closed restaurants+Locations of the Open/Closed Restaurants in Toronto Map
+    + An interactive map of restaurants in Toronto with their average ratings
+    + The reviews given by customer for closed restaurants in Toronto related to food, service, ambience and staff
+    + Word Cloud of the reviews of Watermark Irish Pub
+    + Sentiment Analysis - Postive and Not So Postive Words of “Watermark Irish Pub”
+    + Calculate Sentiment for the reviews of “Watermark Irish Pub”
+    + Top 5 Negative Reviews of “Watermark Irish Pub”
