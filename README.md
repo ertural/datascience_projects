@@ -12,11 +12,11 @@ Questions to be answered
 8. Map of the Restaurants in Toronto
 9. Most Appreciated Restaurants in Toronto
 10.0. “Pai Northern Thai Kitchen”
-10.1. Wordcloud of the reviews of “Pai Northern Thai Kitchen”
-10.2. Sentiment Analysis - Postive and Not So Postive Words of “Pai Northern Thai Kitchen”
-10.3. Calculate Sentiment for the reviews
-10.4. Top 5 Negative Reviews
-10.5. Top 5 Positive Reviews
+    + Wordcloud of the reviews of “Pai Northern Thai Kitchen”
+    + Sentiment Analysis - Postive and Not So Postive Words of “Pai Northern Thai Kitchen”
+    + Calculate Sentiment for the reviews
+    + Top 5 Negative Reviews
+    + Top 5 Positive Reviews
 10.6. Most Common Bigrams of “Pai Northern Thai Kitchen”
 10.7. Relationship among words
 Highly criticized restaurants in Toronto
