@@ -1,2 +1,3 @@
-# datascience_projects
-Sample data science projects
+# Problem Setup 
+
+Given the large number of restaurants and the total size of this industry, I decided to create a model that might help investors decide whether they should lend/invest at a particular restaurant based on the likelihood that it is going to fail in the future. I wanted to explore what types of qualities help determine whether a business will close down or not. The machine learning algorithms I used on this project were logistic regression, random forest, and a gradient boosting machine. I compared the accuracy, precision, and recall of these different approaches. Using these different models, I was able to examine a problem that many business owners deal with personally.
