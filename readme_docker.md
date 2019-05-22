@@ -23,3 +23,21 @@ def predict():
         results = model.predict(model_input)
     return jsonify({"prediction": results})
 ```
+
+### 2.Containerizing web service with Docker
+Docker is an application that allows us to package the application in a container with all dependencies so we can run the applications anywhere. The main advantage of the docker is to ensure that our application works the way we want it to work and ensure scalability by starting up new containers as we get more requests, and maintaining fault tolerance by being able to replace faulty containers with new ones in no time. We can dockerize your application by adding a Dockerfile to your app folder. 
+
+```
+# Pull Base Image
+FROM ubuntu:16.04
+# copy code into image and set as working directory
+COPY . /application
+WORKDIR /application
+# install dependencies
+RUN sudo apt-get -y update && \
+    pip install pipenv && \
+    pipenv install --system --deploy
+EXPOSE 5000
+ENTRYPONIT ["gunicorn"]
+CMD ["server:app"]
+```
