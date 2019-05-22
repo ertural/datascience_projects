@@ -45,8 +45,8 @@ CMD ["server:app"]
 No we can deploy our image anymore. We can use a service on Google Cloud Platform that allows us to deploy and manage containers called Kubernetes.
 
 1. First we have to push docker image to google container registry
-```gcloud docker --push gcr.io/<your-project-id>/<image-name>
-```
+```gcloud docker --push gcr.io/<your-project-id>/<image-name>```
+
 2. Create a container cluster on google cloud platform
 ```gcloud container clusters create <cluster-name> --num-nodes=3
 ```
