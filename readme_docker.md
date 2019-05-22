@@ -41,3 +41,19 @@ EXPOSE 5000
 ENTRYPONIT ["gunicorn"]
 CMD ["server:app"]
 ```
+### 3.Deploy using Kubernetes
+No we can deploy our image anymore. We can use a service on Google Cloud Platform that allows us to deploy and manage containers called Kubernetes.
+
+1. First we have to push docker image to google container registry
+```gcloud docker --push gcr.io/<your-project-id>/<image-name>
+```
+2. Create a container cluster on google cloud platform
+```gcloud container clusters create <cluster-name> --num-nodes=3
+```
+3. Run app image inside the cluster we just created
+```kubectl run <deployment_name> --image=<your_image_in_container_registry> --port 8080
+```
+4. Expose application to the internet
+```kubectl expose deployment <deployment_name> --type=LoadBalancer --port 80 --target-port 8080
+```
+Now anymore we are able to build our model and wrap a web service around it, containerized it and deployed it with kubernetes!
