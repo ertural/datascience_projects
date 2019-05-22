@@ -1,4 +1,4 @@
-## Explaining how to run your code using Docker
+## Explaining How To Run Our Code Using Docker
 
 We can deploy our model by following the steps below:
 
