@@ -10,7 +10,7 @@ We can deploy our model by following the steps below:
 ### 1. Flask 
 Flask is a microframework for python web development. It allows us to use what we need for our application. In this case we’ll be using flask to built the restful web service. Below is a simple flask application that loads our model into memory, makes predictions with our model and returns predictions a JSON object.
 
-"from flask import Flask, request, jsonify
+from flask import Flask, request, jsonify
 import utils
 app = Flask(__name__)
 model = utils.load_model("<path_to_model>")
@@ -21,4 +21,4 @@ def predict():
         
         model_input = utils.preprocessing(data)
         results = model.predict(model_input)
-    return jsonify({"prediction": results})"
+    return jsonify({"prediction": results})
